@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Autorización de publicación · Voces y Miradas de la Investigación</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --fondo: #eef3f6;
+    --papel: #ffffff;
+    --tinta: #14283a;
+    --suave: #4a5d6d;
+    --linea: #c9d6df;
+    --marca: #0f4c75;
+    --marca-texto: #ffffff;
+    --acento: #e9a820;
+    --serif: "Literata", Georgia, "Times New Roman", serif;
+    --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fondo: #0e1a24;
+      --papel: #15283a;
+      --tinta: #eaf1f6;
+      --suave: #a9bac7;
+      --linea: #2c4558;
+      --marca: #7cc0ee;
+      --marca-texto: #0e1a24;
+      --acento: #f0b93a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--tinta);
+    font-family: var(--sans);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    padding: 0 0 2rem;
+  }
+  .hoja {
+    max-width: 40rem;
+    margin: 0 auto;
+    background: var(--papel);
+    min-height: 100vh;
+    padding: 2rem 1.25rem 2.5rem;
+    border-left: 1px solid var(--linea);
+    border-right: 1px solid var(--linea);
+  }
+  .asignatura {
+    margin: 0 0 1.25rem;
+    font-size: 0.9375rem;
+    color: var(--suave);
+    border-left: 4px solid var(--acento);
+    padding-left: 0.75rem;
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: clamp(2rem, 8vw, 2.75rem);
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+    margin: 0 0 1rem;
+  }
+  .intro { margin: 0 0 2rem; max-width: 34rem; }
+  h2 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 1.1875rem;
+    margin: 0 0 1rem;
+    color: var(--suave);
+  }
+  dl { margin: 0 0 1.25rem; }
+  .punto {
+    padding: 1rem 0;
+    border-top: 1px solid var(--linea);
+  }
+  .punto:last-child { border-bottom: 1px solid var(--linea); }
+  dt {
+    font-family: var(--serif);
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin: 0 0 0.25rem;
+  }
+  dd { margin: 0; color: var(--suave); max-width: 34rem; }
+  .grupal { margin: 0 0 2rem; font-weight: 600; }
+  .acciones { display: grid; gap: 0.75rem; margin-bottom: 2.5rem; }
+  .boton {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 1.0625rem;
+    padding: 1rem 1.25rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--marca);
+    min-height: 3.25rem;
+  }
+  .boton.principal { background: var(--marca); color: var(--marca-texto); }
+  .boton.secundario { background: transparent; color: var(--marca); }
+  .boton:hover { filter: brightness(1.08); }
+  .boton:focus-visible { outline: 3px solid var(--acento); outline-offset: 3px; }
+  footer {
+    padding-top: 1rem;
+    border-top: 1px solid var(--linea);
+    font-size: 0.9375rem;
+    color: var(--suave);
+  }
+  footer strong { color: var(--tinta); }
+  @media (min-width: 40rem) {
+    .hoja { padding: 3rem 2.5rem; margin-top: 0; }
+    .acciones { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+  <main class="hoja">
+    <p class="asignatura">Metodología de la Investigación · Voces y Miradas de la Investigación</p>
+
+    <h1>¿Querés que tu trabajo se publique?</h1>
+    <p class="intro">Los trabajos de Metodología de la Investigación se muestran en Voces y Miradas de la Investigación. Para publicar el tuyo necesitamos tu autorización por escrito. Se completa desde el celular en unos minutos.</p>
+
+    <h2>Qué estás autorizando</h2>
+    <dl>
+      <div class="punto">
+        <dt>Publicación con tu nombre</dt>
+        <dd>Tu trabajo se muestra en la web de la asignatura, con tu nombre y apellido como autor/a. No se publican tu DNI, domicilio, teléfono ni correo.</dd>
+      </div>
+      <div class="punto">
+        <dt>Licencia abierta</dt>
+        <dd>Se publica bajo Creative Commons BY-NC-SA 4.0: se puede leer, descargar y citar con fines educativos, nunca con fines comerciales.</dd>
+      </div>
+      <div class="punto">
+        <dt>Seguís siendo dueño/a de tu obra</dt>
+        <dd>La autorización no es exclusiva: podés presentarla o difundirla donde quieras. No hay pago ni retribución para ninguna de las partes.</dd>
+      </div>
+      <div class="punto">
+        <dt>Es voluntario</dt>
+        <dd>No influye en tu evaluación ni en la regularización de la asignatura. Podés retirar tu autorización cuando quieras y se da de baja en un máximo de 10 días hábiles.</dd>
+      </div>
+    </dl>
+
+    <p class="grupal">Si tu trabajo es grupal, cada integrante completa su propia autorización.</p>
+
+    <div class="acciones">
+      <!-- 1) Reemplazá el href de este botón por el link de tu Google Form -->
+      <a class="boton principal" href="PEGAR_AQUI_EL_LINK_DEL_GOOGLE_FORM" target="_blank" rel="noopener">Completar la autorización</a>
+      <a class="boton secundario" href="https://asignaturas-cs.github.io/Voces--y-Miradas-/">Ver los trabajos publicados</a>
+    </div>
+
+    <footer>
+      <strong>Equipo docente:</strong> Prof. Esp. Oscar Hernán Cobos y Prof. Esp. Mauro Nicolás Sorolla.
+    </footer>
+  </main>
+</body>
+</html>
